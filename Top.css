@@ -2,13 +2,13 @@ article{
    display:flex;
    flex-direction:column;
  }
- .logo{
+ .assam{
    box-sizing:border-box;
    padding:5%;
    background:#e8e8e8;
    text-align:center;
  }
- .logo img{
+ .assampic img{
    width:70px;
    height:auto;
  }
