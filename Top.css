@@ -29,7 +29,7 @@ article{
      width:60%;
    }
    .assampic img{
-     position:relative;
+     position:static;
      top:100vm;
      transform:translateY(100%);
    }
