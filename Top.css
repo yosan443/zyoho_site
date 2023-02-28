@@ -9,7 +9,7 @@ article{
    text-align:center;
  }
  .assampic img{
-   width:100vm;
+   width:auto;
    height:auto;
  }
  .text{
@@ -29,7 +29,6 @@ article{
      width:60%;
    }
    .assampic img{
-     position:static;
      top:100vm;
      transform:translateY(100%);
    }
