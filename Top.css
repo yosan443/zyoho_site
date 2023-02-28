@@ -25,10 +25,10 @@ article{
      display:flex;
      flex-direction:row;
    }
-   .logo{
+   .assam{
      width:60%;
    }
-   .logo img{
+   .assampic img{
      position:relative;
      top:100%;
      transform:translateY(0%);
