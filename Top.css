@@ -9,6 +9,7 @@ article{
    text-align:center;
  }
  .assampic img{
+   box-sizing:border-box
    width:auto;
    height:auto;
  }
