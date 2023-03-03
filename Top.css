@@ -2,62 +2,70 @@ article{
    display:flex;
    flex-direction:column;
  }
-.flex .image {
-  width: auto; /*画像サイズ指定*/
+body {
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: relative;
-}
-.flex .right {
-  margin: 0 0 0 20px;
-  padding: 0;
-}
-.flex .title {
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-  font-size: 18px;
-}
-.flex .text {
-  margin: 10px 0 0;
   padding: 0;
 }
 
-/* 画像を天地中央表示 */
+.box {
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+}
 
-.flex .image {
-  overflow: hidden;
-  position: relative;
-}
-.flex .image::before {
-  content: "ap";
-  display: block;
-  padding-top: 58%;
-}
-.flex .image img {
+.text {
   width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+  text-align: center;
 }
- .assam{
-   box-sizing:border-box;
-   padding:5%;
-   background:#e8e8e8;
-   text-align:center;
- }
- .assampic img{
-   box-sizing:border-box
-   width:auto;
-   height:auto;
- }
- .text{
-   box-sizing:border-box;
-   width:100%;
-   background:#cfcfcf;
-   text-align:center;
- }
+
+h3 {
+  font-size: 21px;
+  margin: 0;
+}
+
+.pict {
+  width: 100%;
+  text-align: center;
+  min-height: 0%;
+}
+
+.pict img {
+  max-width: 300px;
+  height:auto;
+}
+.box:nth-child(even) {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+@media (min-width:768px) {
+  body {
+    padding: 0px;
+  }
+  .box {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+  }
+  .box:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .text {
+    text-align: left;
+  }
+  .box:nth-child(even) .text {
+    text-align: right;
+  }
+  .pict {
+    width: 30%;
+  }
+  .pict img {
+    width: 100%;
+    height:auto;
+  }
+  .box:nth-child(even) .pict {
+    margin-left: 0;
+    margin-right: 3%;
+  }
+}
