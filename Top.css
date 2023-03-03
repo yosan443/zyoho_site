@@ -10,7 +10,7 @@ body {
 .box {
   display:flex;
   flex-direction: column;
-  padding: 0px;
+  padding: 20px;
 }
 
 .text {
@@ -35,7 +35,7 @@ h3 {
 }
 .box:nth-child(even) {
   background-color: #f1f1f1;
-  padding: 0px;
+  padding: 20px;
 }
 
 @media (min-width:768px) {
