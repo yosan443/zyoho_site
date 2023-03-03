@@ -2,6 +2,48 @@ article{
    display:flex;
    flex-direction:column;
  }
+.flex .image {
+  width: 640px; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.flex .right {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+.flex .title {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+.flex .text {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+/* 画像を天地中央表示 */
+
+.flex .image {
+  overflow: hidden;
+  position: relative;
+}
+.flex .image::before {
+  content: "ap";
+  display: block;
+  padding-top: 58%;
+}
+.flex .image img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
  .assam{
    box-sizing:border-box;
    padding:5%;
@@ -18,28 +60,4 @@ article{
    width:100%;
    background:#cfcfcf;
    text-align:center;
- }
-
-/* 以下PC用の表示 */
- @media screen and (min-width:640px){
-   article{
-     display:flex;
-     flex-direction:row;
-   }
-   .assam{
-     width:60%;
-   }
-   .assampic img{
-     top:100vm;
-   }
-   .text{
-     width:40%;
-     padding:5%;
-   }
-   article:nth-child(2n+1){
-     flex-direction:row-reverse;
-   }
-   article:nth-child(2n+1) .logo{
-     background:#f3f3f3;
-   }
  }
