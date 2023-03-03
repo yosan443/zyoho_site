@@ -17,10 +17,6 @@ body {
   width: 100%;
   text-align: center;
 }
-.box:nth-child(even) {
-  background-color: #f1f1f1;
-  padding: 20px;
-}
 
 h3 {
   font-size: 70px;
@@ -37,6 +33,7 @@ h3 {
   max-width: 300px;
   height:auto;
 }
+
 .box:nth-child(even) {
   background-color: #f1f1f1;
   padding: 20px;
