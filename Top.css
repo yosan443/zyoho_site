@@ -38,6 +38,10 @@ h3 {
   background-color: #f1f1f1;
   padding: 20px;
 }
+.box2:nth-child(even) {
+  background-color: #c71585;
+  padding: 20px;
+}
 
 @media (min-width:768px) {
   body {
