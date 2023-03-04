@@ -7,6 +7,10 @@ h1 {
   font-size: 80px;
 }
 
+h2 {
+  font-size: 70px;
+}
+
 .box {
   display:flex;
   flex-direction: column;
@@ -38,11 +42,11 @@ h3 {
   max-width: 320px;
   height:auto;
 }
-.box:nth-child(3) {
+.box:nth-of-type(1) {
   background-color: 	#3A0608;
   padding: 20px;
 }
-.box:nth-child(4) {
+.box:nth-of-type(2) {
   background-color: #f1f1f1;
   padding: 20px;
 }
@@ -56,14 +60,14 @@ h3 {
     justify-content: space-between;
     margin-bottom: 0px;
   }
-  .box:nth-child(4) {
+  .box:nth-of-type(2) {
     flex-direction: row-reverse;
   }
   
   .text {
     text-align: center;
   }
-  .box:nth-child(4) .text {
+  .box:nth-of-type(2) .text {
     text-align: center;
   }
   .pict {
@@ -73,7 +77,7 @@ h3 {
     width: 100%;
     height:auto;
   }
-  .box:nth-child(4) .pict {
+  .box:nth-of-type(2) .pict {
     margin-left: 0;
     margin-right: 3%;
   }
