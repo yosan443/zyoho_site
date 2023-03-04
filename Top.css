@@ -59,7 +59,7 @@ h3 {
   .text {
     text-align: left;
   }
-  .box:nth-child(even) .text {
+  .box2:nth-child(even) .text {
     text-align: right;
   }
   .pict {
