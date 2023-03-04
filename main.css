@@ -3,8 +3,8 @@ body {
   padding: 0;
 }
 
-h1 {
-  font-size: 70px;
+.logo img {
+  width: 100%
 }
 
 h2 {
