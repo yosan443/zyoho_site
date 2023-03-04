@@ -29,7 +29,11 @@ h3 {
   max-width: 300px;
   height:auto;
 }
-.box:nth-child(even) {
+.box:nth-child(1) {
+  background-color: #0000cd;
+  padding: 20px;
+}
+.box:nth-child(2) {
   background-color: #f1f1f1;
   padding: 20px;
 }
@@ -43,14 +47,14 @@ h3 {
     justify-content: space-between;
     margin-bottom: 0px;
   }
-  .box:nth-child(even) {
+  .box:nth-child(2) {
     flex-direction: row-reverse;
   }
   
   .text {
     text-align: left;
   }
-  .box:nth-child(even) .text {
+  .box:nth-child(2) .text {
     text-align: right;
   }
   .pict {
@@ -60,7 +64,7 @@ h3 {
     width: 100%;
     height:auto;
   }
-  .box:nth-child(even) .pict {
+  .box:nth-child(2) .pict {
     margin-left: 0;
     margin-right: 3%;
   }
