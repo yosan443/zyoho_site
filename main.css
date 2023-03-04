@@ -57,10 +57,10 @@ h3 {
   }
   
   .text {
-    text-align: left;
+    text-align: center;
   }
   .box:nth-child(2) .text {
-    text-align: right;
+    text-align: center;
   }
   .pict {
     width: 30%;
