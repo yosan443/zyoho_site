@@ -15,10 +15,11 @@ body {
   width: 100%;
   text-align: center;
   color: white;
+  font-size: 30px;
 }
 
 h3 {
-  font-size: 21px;
+  font-size: 60px;
   margin: 0;
 }
 
