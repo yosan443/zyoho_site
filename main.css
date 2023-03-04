@@ -7,8 +7,16 @@ body {
   width: 100%
 }
 
+.mibox {
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
 h2 {
   font-size: 70px;
+  text-align: center;
 }
 
 .box {
@@ -42,11 +50,11 @@ h3 {
   max-width: 320px;
   height:auto;
 }
-.box:nth-of-type(2) {
+.box:nth-of-type(3) {
   background-color: 	#3A0608;
   padding: 20px;
 }
-.box:nth-of-type(3) {
+.box:nth-of-type(4) {
   background-color: #f1f1f1;
   padding: 20px;
 }
@@ -60,14 +68,14 @@ h3 {
     justify-content: space-between;
     margin-bottom: 0px;
   }
-  .box:nth-of-type(3) {
+  .box:nth-of-type(4) {
     flex-direction: row-reverse;
   }
   
   .text {
     text-align: center;
   }
-  .box:nth-of-type(3) .text {
+  .box:nth-of-type(4) .text {
     text-align: center;
   }
   .pict {
@@ -77,7 +85,7 @@ h3 {
     width: 100%;
     height:auto;
   }
-  .box:nth-of-type(3) .pict {
+  .box:nth-of-type(4) .pict {
     margin-left: 0;
     margin-right: 3%;
   }
