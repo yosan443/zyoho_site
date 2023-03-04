@@ -38,11 +38,11 @@ h3 {
   max-width: 320px;
   height:auto;
 }
-.box:nth-child(1) {
+.box:nth-child(3) {
   background-color: 	#3A0608;
   padding: 20px;
 }
-.box:nth-child(2) {
+.box:nth-child(4) {
   background-color: #f1f1f1;
   padding: 20px;
 }
@@ -56,14 +56,14 @@ h3 {
     justify-content: space-between;
     margin-bottom: 0px;
   }
-  .box:nth-child(2) {
+  .box:nth-child(4) {
     flex-direction: row-reverse;
   }
   
   .text {
     text-align: center;
   }
-  .box:nth-child(2) .text {
+  .box:nth-child(4) .text {
     text-align: center;
   }
   .pict {
@@ -73,7 +73,7 @@ h3 {
     width: 100%;
     height:auto;
   }
-  .box:nth-child(2) .pict {
+  .box:nth-child(4) .pict {
     margin-left: 0;
     margin-right: 3%;
   }
