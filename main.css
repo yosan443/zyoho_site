@@ -26,12 +26,12 @@ h3 {
   width: 100%;
   text-align: center;
   min-height: 0%;
+  border-radius: border-radius: 50%;
 }
 
 .pict img {
   max-width: 300px;
   height:auto;
-  border-radius: border-radius: 50%;
 }
 .box:nth-child(1) {
   background-color: 	#3A0608;
