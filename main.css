@@ -14,6 +14,7 @@ body {
 .text {
   width: 100%;
   text-align: center;
+  color: white;
 }
 
 h3 {
@@ -33,7 +34,7 @@ h3 {
   border-radius: border-radius: 50%;
 }
 .box:nth-child(1) {
-  background-color: #0000cd;
+  background-color: 	#3A0608;
   padding: 20px;
 }
 .box:nth-child(2) {
