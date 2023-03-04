@@ -7,13 +7,13 @@ body {
   padding: 0;
 }
 
-.box {
+.box1 {
   display:flex;
   flex-direction: column;
   padding: 20px;
 }
 
-.text {
+.text1 {
   width: 100%;
   text-align: center;
 }
@@ -23,18 +23,18 @@ h3 {
   margin: 0;
 }
 
-.pict {
+.aspic {
   width: 100%;
   text-align: center;
   min-height: 0%;
 }
 
-.pict img {
+.aspic img {
   max-width: 300px;
   height:auto;
 }
 
-.box:nth-child(even) {
+.box1:nth-child(even) {
   background-color: #0000cd;
   padding: 20px;
 }
@@ -47,29 +47,29 @@ h3 {
   body {
     padding: 0px;
   }
-  .box {
+  .box1 {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 0px;
   }
-  .box:nth-child(even) {
+  .box1:nth-child(even) {
     flex-direction: row-reverse;
   }
   
-  .text {
+  .text1 {
     text-align: left;
   }
   .box2:nth-child(even) .text {
     text-align: right;
   }
-  .pict {
+  .aspic {
     width: 30%;
   }
-  .pict img {
+  .aspic img {
     width: 100%;
     height:auto;
   }
-  .box:nth-child(even) .pict {
+  .box1:nth-child(even) .aspic {
     margin-left: 0;
     margin-right: 3%;
   }
